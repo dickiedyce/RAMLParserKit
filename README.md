@@ -90,15 +90,15 @@ struct RAMLDocument: FileDocument {
 
 ## Data Model
 
-| Type | Description |
-|------|-------------|
-| `ParsedSpec` | Top-level result containing API info, endpoints, and requirements |
-| `APIInfo` | API title, version, description, and security schemes |
-| `Endpoint` | HTTP method, path, summary, parameters, responses, and requirements |
-| `APIParameter` | Query/path/header parameter with type, description, and constraints |
-| `APIResponse` | Status code, description, and content type |
-| `Requirement` | Functional or non-functional requirement with acceptance criteria |
-| `SecurityScheme` | Auth type, scheme, and description |
+| Type             | Description                                                         |
+| ---------------- | ------------------------------------------------------------------- |
+| `ParsedSpec`     | Top-level result containing API info, endpoints, and requirements   |
+| `APIInfo`        | API title, version, description, and security schemes               |
+| `Endpoint`       | HTTP method, path, summary, parameters, responses, and requirements |
+| `APIParameter`   | Query/path/header parameter with type, description, and constraints |
+| `APIResponse`    | Status code, description, and content type                          |
+| `Requirement`    | Functional or non-functional requirement with acceptance criteria   |
+| `SecurityScheme` | Auth type, scheme, and description                                  |
 
 ## Dependencies
 
