@@ -14,6 +14,7 @@ A Swift package that parses RAML 1.0 and OpenAPI specifications into structured 
 ## Requirements
 
 - macOS 13.0+
+- iOS 16.0+
 - Swift 5.9+
 
 ## Installation
